@@ -134,14 +134,14 @@
 @keyframes rainbow-text {
   0%{
     color: red;
+    transform: translateY(0);
   }
   25%{
     color: green;
-    transform: translateY(15%);
-    
   }
   50%{
-    color: blue
+    color: blue;
+    transform: translateY(15%);
   }
   100%{
     color: rgb(210, 84, 105)
